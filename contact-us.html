@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Lab 2</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="css/main.css" rel="stylesheet" >
+  
+
+<body>
+    <header>
+        <div class="top_header">
+          <div class="logo_section">
+            <img src="img/logo.svg" id="logo_header">
+          </div>
+          <div class="title_text">
+            <h1 style="margin-left: 1em;">Come discover Brazil</h1>
+          </div>
+        </div>
+          <nav>
+              <ul>
+                  <li><a class="menu_link" href="index.html">Home</a></li>
+                  <li><a class="menu_link" href="prices.html">Pricing</a></li>
+                  <li><a class="menu_link" href="about-us.html">About Us</a></li>
+                  <li><a class="menu_link" href="contact-us.html">Contact Us</a></li>
+              </ul>
+          </nav>
+      </header>
+    <main>
+        <aside>
+            <ul>
+                <li><a class="side_item" href="index.html">Go back</a></li>
+              </ul>
+        </aside>
+        <section>
+            <h2 style="text-align: center;">Contact Us</h2>
+            <p style="text-align: center;">Interested in traveling with us and discover Brazil? Please send us a message </p>
+            <form>
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" required><br>
+
+                <label for="email">Email:</label><br>
+                <input type="text" id="email"required><br><br>
+
+                <label >What city do you plan to go?:</label><br><br>
+
+                <input type="radio" id="sao" name="city" value="São Paulo">
+                <label for="sao">São Paulo</label><br>
+                <input type="radio" id="rio" name="city" value="Rio de Janeiro">
+                <label for="rio">Rio de Janeiro</label><br>
+                <input type="radio" id="amazonas" name="city" value="Amazonas">
+                <label for="amazonas">Amazonas</label><br>
+                <input type="radio" id="natal" name="city" value="Natal">
+                <label for="natal">Natal</label><br><br>
+
+                <label for="message">Message</label><br>
+                <textarea id="message" name="message" rows="4" cols="50">Your message</textarea><br>
+
+                <input type="checkbox" id="news" name="news" value="Boat">
+                <label for="news"> I want to recieve emails from this website</label><br>
+
+                <input type="submit" value="Send Message">
+                
+            </form>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+
+
+</body>
+
+</html>
